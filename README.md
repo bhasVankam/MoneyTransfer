@@ -28,8 +28,8 @@ Simple RESTful API for money transfer.
   ```json
     {
     	  "receiver_id": "fe42084d-62c7-4687-b293-a0002e0e6552",
-          "sender_id": "411123d7-4561-4b73-9b13-dce4cf68a9c2",
-          "amount": 10
+         "sender_id": "411123d7-4561-4b73-9b13-dce4cf68a9c2",
+         "amount": 10
     }
   ```
 * `GET` api/revoult/account/{id}/transfer  - Returns all transfers made by given sender account Id
